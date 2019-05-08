@@ -11,6 +11,8 @@ public class CreateClient {
 		QRCodeUtil.encoderQRCode(encoderContent, imgPath, "png");
 		
 		System.out.println("create success!");
+		
+		System.out.println("新创建的二维码");
 	}
 
 }
